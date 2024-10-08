@@ -1,4 +1,10 @@
 # Mining-University-of-Oulu-Hospital-ESKO-database
-Mining University of Oulu Hospital ESKO database by employing Natural Language Processing (NLP) techniques.  It primarily uses the Unified Medical Language System (UMLS) to scrutinize terminologies within the doctors' narratives.
+The project aimed to analyze the University of Oulu Hospital's ESKO database using advanced Natural Language Processing (NLP) techniques. The problem was to extract meaningful insights from unstructured medical texts in clinician updates and patient records. The primary focus was on understanding medical terminology and its application within the healthcare data to improve patient care and data management.
+
+To address this, the solution involved a multi-stage NLP pipeline that included data preprocessing, text translation, statistical analysis, word cloud generation, and medical terminology extraction using the Unified Medical Language System (UMLS). Data preprocessing ensured the quality and relevance of text for analysis, while text translation converted Finnish narrative texts into English. The statistical analysis and word cloud generation provided insights into narrative structure and common themes, and UMLS was utilized for medical vocabulary extraction and categorization.
+
+The outcome of the project highlighted the prevalent medical terms and themes in clinician recommendations, revealing significant patterns in healthcare data. The analysis demonstrated that specific terms such as "treatment" and "patient" were recurrent, emphasizing medical interventions and patient care. The study also pointed out gaps in the use of explicit medical terminologies within the doctor's recommendations, leading to potential improvements in healthcare communication.
+
+Skills and technologies used in this project included Natural Language Processing (NLP), Unified Medical Language System (UMLS), Python, data visualization, Google Translation API, Empath categorization, statistical analysis, and machine learning libraries like SpaCy and NLTK. The combination of these tools enabled the transformation of unstructured healthcare data into actionable insights.
 
 link to the report with results: https://github.com/fahadchauhan/Mining-University-of-Oulu-Hospital-ESKO-database/blob/main/Project_33_Paper_Report.pdf
